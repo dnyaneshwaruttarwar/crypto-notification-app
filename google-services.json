@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "250972695193",
+    "firebase_url": "https://crypto-api-9630b.firebaseio.com",
+    "project_id": "crypto-api-9630b",
+    "storage_bucket": "crypto-api-9630b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250972695193:android:0e1d23b745a190e1",
+        "android_client_info": {
+          "package_name": "crypto.notification.app.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250972695193-e4mejauj27kpcmshgvovrg77u8pk0lk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEmgPWweE-GG5NLu2tMS_GlrkUkzAmQ-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

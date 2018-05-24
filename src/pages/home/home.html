@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title class="title">Low Rate Coins</ion-title>
+        <ion-buttons right>
+            <button ion-button style="font-size: 2.5rem;" (click)="removeAllNotification()">
+                <ion-icon name="close"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card *ngFor="let notification of notificationList | reverse">
+        <ion-item>
+            <h2 class="feed-org-name">{{notification.title}}
+                <!-- <ion-icon name="close" style="float: right;font-size: 25px;" (click)="removeNotification(notification)"></ion-icon> -->
+            </h2>
+        </ion-item>
+
+        <ion-card-content class="feed-card-content">
+            <div>
+                <ng-container>
+                    <p class="feed-card-body-text" [innerHTML]="notification.body">
+                    </p>
+                </ng-container>
+            </div>
+        </ion-card-content>
+    </ion-card>
+</ion-content>
